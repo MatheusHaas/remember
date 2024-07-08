@@ -1,4 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #A09ABC;
 }
+
+/* Cabeçalho */
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    padding: 10px;
+    background-color: #B6A6CA;
+}
+.container-link-1 {
+    margin: 0 10px;
+    color: black;
+}
+.header-container h1 {
+    margin: 0;
+    background-color: #B6A6CA;
+}
+
+.container-link-2{
+    background-color: #B6A6CA;
+}
+
+/* Conteúdo da página */
+
+.outer-border {
+    display: flex;
+    justify-content: center; 
+    padding: 20px; /* Espaçamento interno para a borda externa */
+    flex-direction: column;
+}
+
+.inner-border-1, .inner-border-2 {
+    border: 3px solid #000000; /* Borda para cada uma das divs internas */
+    padding: 10px; /* Espaçamento interno para as bordas internas */
+    margin: 10px; /* Espaçamento entre as duas divs internas */
+    border: 2px solid #B6A6CA; 
+    border-radius: 12px;
+    background-color: #B6A6CA;
+}
+
+.content-firstsec{
+    display: flex;
+}
+
+.content-firstsec-paragraph {
+    background-color: #B6A6CA;
+}
+
+.content-secondsec{
+    display: flex;
+}
+
+.content-secondsec-image{
+    height: 300px;
+    width: 300px;
+}
+
+.content-secondsec-paragraph{
+    background-color: #B6A6CA;
+}
+
+/* Rodapé */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+}
+.footer-logo, .footer-socials {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    padding: 10px;
+    background-color: #B6A6CA;
+}
+.footer-home img {
+    max-width: 100px; 
+    height: auto;
+    background-color: #B6A6CA;
+}
+.footer-socials a {
+    margin-left: 10px;
+    background-color: #B6A6CA;
+}
+

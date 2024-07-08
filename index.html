@@ -7,29 +7,37 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header class="header-links">
-        <a href="./index.html"><h1>Remember!</h1></a>
-        <a href="#">Login</a>
+    <header class="header">
+        <div class="header-container">
+            <a href="./index.html" class="container-link-1"><h1>Remember!</h1></a>
+            <a href="#" class="container-link-2">Login</a>
+        </div>
     </header>
+    <main class="outer-border">
+        <div class="inner-border-1">
+            <section class="content-firstsec">                
+                <p class="content-firstsec-paragraph">
+                    REMEMBER, é um sistema web, para uso pessoal do criador, onde é salvo várias informações registradas na interwebs. Finalidade desta home page estar visivel apenas para apresentação a outras pessoas.
+                </p>
+                <img src="./images/cadeado.jpeg" alt="Imagem com senhas, logins." class="content-firstsec-image">
+            </section>
 
-    <main class="content">
-        <section class="content-firstsec">
-            <p>
-                REMEMBER, é um sistema web, para uso pessoal do criador, onde é salvo várias informações registradas na interwebs. Finalidade desta home page estar visivel apenas para apresentação a outras pessoas.
-            </p>
-            <img src="data:image/jpeg;base64,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" alt="Imagem com senhas, logins." class="content-firstsec-image">    
-        </section>
-        <section class="content-secondsec">
-            <img src="https://img.elo7.com.br/product/zoom/485531D/mini-caderno-de-logins-e-senhas-logins-e-senhas.jpg" alt="Imagem por dentro do Sistema!" class="content-secondsec-image">
-            <p>
-                O web site contará com dados sensíveis do usuário tal como: logins, senhas, emails cadastrados, tempo da senha não alterada e outras features.
-                Salve como se fosse um caderno para lembrar onde possua acessos!
-            </p>
-        </section>
+        </div>
+        <div class="inner-border-2">
+            <section class="content-secondsec">
+                <img src="./images/caderno.jpeg" alt="Imagem por dentro do Sistema!" class="content-secondsec-image">
+                <p class="content-secondsec-paragraph">
+                    O web site contará com dados sensíveis do usuário tal como: logins, senhas, emails cadastrados, tempo da senha não alterada e outras features.
+                    Salve como se fosse um caderno para lembrar onde possua acessos!
+                </p>
+            </section>
+        </div>
     </main>
 
     <footer class="footer">
-        <a href="./index.html"><img src="#" alt="Logo"></a>
+        <div class="footer-logo">
+            <a href="./index.html" class="footer-home"><img src="#" alt="Logo"></a>
+        </div>        
         <div class="footer-socials">
             <a href="https://github.com/MatheusHaas">GitHub</a>
             <a href="https://www.linkedin.com/in/matheus-assun%C3%A7%C3%A3o-haas-30b7821a2/">LinkedIn</a>
