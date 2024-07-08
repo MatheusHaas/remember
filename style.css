@@ -43,14 +43,14 @@
 .outer-border {
     display: flex;
     justify-content: center; 
-    padding: 20px; /* Espaçamento interno para a borda externa */
+    padding: 20px; 
     flex-direction: column;
 }
 
 .inner-border-1, .inner-border-2 {
-    border: 3px solid #000000; /* Borda para cada uma das divs internas */
-    padding: 10px; /* Espaçamento interno para as bordas internas */
-    margin: 10px; /* Espaçamento entre as duas divs internas */
+    border: 3px solid #000000; 
+    padding: 10px; 
+    margin: 10px; 
     border: 2px solid #B6A6CA; 
     border-radius: 12px;
     background-color: #B6A6CA;
