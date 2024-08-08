@@ -1,57 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Remember</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
-    <header class="header">
-        <div class="header-container">
-            <a class="header-container-item" href="./index.html" class="container-link-1">
-                <img class="header-container-imagem" src="./images/pngwing.com.png" alt="">
-            </a>
-        </div>
-    </header>
-
-    <main>
+    <div class="container">
+        <header class="header">
+            <div class="header-img">
+                <a href="#"><img src="./images/pngwing.com.png" alt="logo"></a>
+            </div>            
+            <div class="header-links">
+                <a class="header-items bttn" href="./index.html">Home</a>
+                <a class="header-items bttn" href="./about.html">Sobre</a>
+                <a class="header-items bttn" href="./contact.html">Contato</a>
+                <a class="header-items bttn" href="./login.html">Login</a>
+            </div>
+        </header>
+    
         <section class="content">
-            <p class="content-paragraph1">
-                REMEMBER, é um sistema web, para uso pessoal do criador, onde é salvo várias informações registradas na
-                interwebs. Finalidade desta home page estar visivel apenas para apresentação a outras pessoas.
-            </p>
-            <p class="content-paragraph2">
-                O web site contará com dados sensíveis do usuário tal como: logins, senhas, emails cadastrados, tempo da
-                senha não alterada e outras features.
-                Salve como se fosse um caderno para lembrar onde possua acessos!
-            </p>
+            <div class="content-text">
+                <div class="content-text-paragraph">
+                    Já pensou em utilizar um aplicativo onde você terá todos os logins já registrados na Web?
+                </div>
+                <h2 class="sub-titles">Aqui você pode!</h2>
+            </div>
+            <div class="content-image">
+                <img src="./images/stickynote.png" alt="">
+            </div>
         </section>
-        
-        <section class="form">
-            <form action="#" class="form-acess">
-                <input class="form-acess-item" type="text" name="user" placeholder="Usuário">
-                <input class="form-acess-item" type="password" name="passwrd" id="" placeholder="Senha">
-                <input class="form-acess-item" type="submit" value="Entrar">
-                <a class="form-acess-item" href="#">Esqueceu a senha?</a>
-                <a class="form-acess-item" href="#">Criar Conta</a>
-            </form>
+    
+        <section class="form-content">
+            <div class="form-text">
+                <h2 class="sub-titles">Aplicativo para qualquer lugar!</h2>
+                <div class="content-text-paragraph">Com o Remember você consegue monitorar os logins, senhas, endereços e até a data de vencimento da sua senha!</div>
+            </div>
+            <div class="form">
+                <form action="#">
+                    <input class="form-item" type="text" name="user" placeholder="Nome">
+                    <input class="form-item" type="email" name="email" id="email" placeholder="E-mail">
+                    <button class="form-item form-button" type="submit">Solicitar acesso!</button>
+                </form>
+            </div>
         </section>
-    </main>
+    
+    
+    
+        <footer class="footer">
+            <a href="#"><img src="./images/pngwing.com.png" alt="logo"></a>
+            <div class="footer-socials">
+                <a class="socials-link bttn" href="https://github.com/MatheusHaas">GitHub</a>
+                <a class="socials-link bttn" href="#">LinkedIn</a>
+            </div>
+        </footer>
+    </div>
 
-
-
-    <footer class="footer">
-        <div class="footer-logo">
-            <a class="footer-logo-item" href="./index.html" class="footer-home"><span>REMEMBER!</span></a>
-        </div>
-        <div class="footer-socials">
-            <a class="footer-socials-item" href="https://github.com/MatheusHaas">GitHub</a>
-            <a class="footer-socials-item" href="https://www.linkedin.com/in/matheus-assun%C3%A7%C3%A3o-haas-30b7821a2/">LinkedIn</a>
-        </div>
-    </footer>
 </body>
-
 </html>
